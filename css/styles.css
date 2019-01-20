@@ -111,6 +111,17 @@ hr {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         color: #2d3c49;
     }
+    .card {
+       display: flex;
+       margin: 0 20px;
+       align-content: space-between;
+    }
+
+    .card>img {
+        max-width: 26vw;
+        max-height: 15vw;
+        object-fit: fill;
+    }        
 }
 
 /* Mobile: Google Nexus 5 */
@@ -141,6 +152,26 @@ hr {
     .skillitem {
         margin: 0px 6px 0px 6px;
     }
+
+    .second h2 {
+        font-size: 1.3em;
+        margin: 20px 0px 25px 0px;
+    }
+
+    .project {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card>img {
+     width: 90vw;
+     height: 50vw;
+    }
+
+    .card>h3 {
+        margin: 0px 0px 40px 0px;
+        font-size: 1.2em;
+    }
 }
 
 /* Tablet: Apple iPad */
@@ -158,6 +189,22 @@ hr {
 
     .skillitem {
         margin: 0px 12px 0px 12px;
+    }
+
+    .project {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card>img {
+        width: 90vw;
+        height: 50vw;
+       }
+
+    .card>h3 {
+        margin: 0px 0px 20px 0px;
+        font-size: 1.6em;
     }
 
 }
