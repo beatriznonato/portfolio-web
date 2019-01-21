@@ -43,7 +43,7 @@ hr {
     border: 0.5px solid #7d97ad;
     width: 40%;
     margin-top: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
 }
 
 
@@ -100,6 +100,16 @@ hr {
     font-size: 1.5em;
 }
 
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact>a>img {
+    margin: 0px 8px 25px 8px;
+}
+
 /* Desktop  */
 
 @media screen and (min-width: 1111px) {
@@ -117,7 +127,7 @@ hr {
        align-content: space-between;
     }
 
-    .card>img {
+    .card>a>img {
         max-width: 26vw;
         max-height: 15vw;
         object-fit: fill;
@@ -163,7 +173,7 @@ hr {
         flex-direction: column;
     }
 
-    .card>img {
+    .card>a>img {
      width: 90vw;
      height: 50vw;
     }
@@ -197,9 +207,10 @@ hr {
         justify-content: center;
     }
 
-    .card>img {
-        width: 90vw;
+    .card>a>img {
+        width: 75vw;
         height: 50vw;
+        object-fit: contain;
        }
 
     .card>h3 {
